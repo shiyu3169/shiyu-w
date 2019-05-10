@@ -5,22 +5,10 @@ import item3 from "../../../img/items/item3.png";
 import item4 from "../../../img/items/item4.png";
 import item5 from "../../../img/items/item5.png";
 import item6 from "../../../img/items/item6.png";
-import item7 from "../../../img/items/item7.png";
-import item8 from "../../../img/items/item8.png";
-import item9 from "../../../img/items/item9.png";
+
 import Item from "./Item";
 const Work = () => {
-    const [items] = useState([
-        item1,
-        item2,
-        item3,
-        item4,
-        item5,
-        item6,
-        item7,
-        item8,
-        item9
-    ]);
+    const [items] = useState([item1, item2, item3, item4, item5, item6]);
 
     return (
         <section id="work-a" className="text-center py-3">

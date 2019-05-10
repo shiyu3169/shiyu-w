@@ -467,18 +467,22 @@ img {
           align-items: center;
 }
 
-#main-footer .footer-content .social .fab {
+#main-footer .footer-content .social a {
+  color: #fff;
+}
+
+#main-footer .footer-content .social i {
   margin-right: 1rem;
   border: 2px #fff solid;
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  line-height: 20px;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
   text-align: center;
   padding: 0.5rem;
 }
 
-#main-footer .footer-content .social .fab:hover {
+#main-footer .footer-content .social i:hover {
   background: #ffbc00;
 }
 

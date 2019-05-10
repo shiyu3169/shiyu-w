@@ -244,18 +244,22 @@ img {
         height: 5rem;
         align-items: center;
 
-        .social .fab {
-            margin-right: 1rem;
-            border: 2px #fff solid;
-            border-radius: 50%;
-            height: 20px;
-            width: 20px;
-            line-height: 20px;
-            text-align: center;
-            padding: 0.5rem;
-
-            &:hover {
-                background: $main-color;
+        .social {
+            a {
+                color: #fff;
+            }
+            i {
+                margin-right: 1rem;
+                border: 2px #fff solid;
+                border-radius: 50%;
+                height: 30px;
+                width: 30px;
+                line-height: 30px;
+                text-align: center;
+                padding: 0.5rem;
+                &:hover {
+                    background: $main-color;
+                }
             }
         }
     }

@@ -9,16 +9,16 @@ const Footer = () => {
                 <div className="social">
                     <Social
                         to="https://www.linkedin.com/in/shiyu-wang-profile/"
-                        iconClass="fab fa-linkedin fa-2x"
+                        iconClass="fab fa-linkedin fa-lg"
                     />
                     <Social
                         to="https://github.com/shiyu3169"
-                        iconClass="fab fa-github-square fa-2x"
+                        iconClass="fab fa-github-square fa-lg"
                     />
                     <Social
                         to="mailto:shiyu3169@gmail.com"
                         email={`true`}
-                        iconClass="fas fa-envelope fa-2x"
+                        iconClass="fas fa-envelope fa-lg"
                     />
                 </div>
             </div>

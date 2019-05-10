@@ -1,25 +1,38 @@
-import React from "react";
-import logo from "../../img/logo.png";
-export default function Navbar() {
+import React, { useEffect } from "react";
+import { HashLink as Link } from "react-router-hash-link";
+
+const Navbar = ({ current }) => {
+    useEffect(() => {
+        document.querySelector(`#${current}`).classList.add("current");
+    });
+
     return (
         <nav id="main-nav">
-            <img src={logo} alt="My portfolio" id="logo" />
+            <span />
             <ul>
                 <li>
-                    <a href="index.html" className="current">
+                    <Link to="/" id="home">
                         Home
-                    </a>
+                    </Link>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <Link id="about" to="/about">
+                        About
+                    </Link>
                 </li>
                 <li>
-                    <a href="work.html">Work</a>
+                    <Link id="work" to="/#work-a">
+                        Work
+                    </Link>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <Link id="contact" to="/contact">
+                        Contact
+                    </Link>
                 </li>
             </ul>
         </nav>
     );
-}
+};
+
+export default Navbar;

@@ -1,11 +1,15 @@
-import React, { Component, Fragment } from "react";
+import React from "react";
+
 import Header from "./Header";
-export default class Home extends Component {
-    render() {
-        return (
-            <Fragment>
-                <Header />
-            </Fragment>
-        );
-    }
-}
+import Work from "../work/Work";
+
+const Home = () => {
+    return (
+        <>
+            <Header />
+            <Work />
+        </>
+    );
+};
+
+export default Home;

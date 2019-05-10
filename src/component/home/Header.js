@@ -2,13 +2,13 @@ import React from "react";
 import Navbar from "../utility/Navbar";
 import Typer from "../utility/Typer";
 
-export default function Header() {
+const Header = () => {
     return (
         <header id="header-home">
             <div className="container">
-                <Navbar />
+                <Navbar current="home" />
                 <div className="header-content">
-                    <h1>I Am Shiyu Wang</h1>
+                    <h1>Shiyu Wang</h1>
                     <p className="lead">
                         The{" "}
                         <Typer
@@ -28,4 +28,6 @@ export default function Header() {
             </div>
         </header>
     );
-}
+};
+
+export default Header;

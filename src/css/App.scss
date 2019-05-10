@@ -24,12 +24,6 @@ ul {
     list-style: none;
 }
 
-h2,
-h3,
-h4 {
-    text-transform: uppercase;
-}
-
 img {
     width: 100%;
 }
@@ -173,11 +167,10 @@ img {
     &-c {
         .about-logos {
             display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             grid-gap: 2rem;
-
             img {
-                width: 70%;
+                width: 30%;
             }
         }
     }

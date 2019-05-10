@@ -1,5 +1,6 @@
 import React from "react";
 import InnerHeader from "../utility/InnerHeader";
+import Info from "./Info";
 
 const Contact = () => {
     return (
@@ -58,21 +59,21 @@ const Contact = () => {
             <section id="contact-b" className="py-3 bg-dark">
                 <div className="contaienr">
                     <div className="contact-info">
-                        <div>
-                            <i className="fas fa-envelope fa-2x" />
-                            <h3>Email</h3>
-                            <p>shiyu3169@gmail.com</p>
-                        </div>
-                        <div>
-                            <i className="fas fa-phone fa-2x" />
-                            <h3>Phone</h3>
-                            <p>(857)-269-9341</p>
-                        </div>
-                        <div>
-                            <i className="fas fa-address-card fa-2x" />
-                            <h3>Address</h3>
-                            <p>394 Ocean Ave, Revere, MA</p>
-                        </div>
+                        <Info
+                            title="Email"
+                            content="shiyu3169@gmail.com"
+                            iconClasses="fas fa-envelope fa-2x"
+                        />
+                        <Info
+                            title="Phone"
+                            content="(857)-269-9341"
+                            iconClasses="fas fa-phone fa-2x"
+                        />
+                        <Info
+                            title="Address"
+                            content="394 Ocean Ave, Revere MA, 02151"
+                            iconClasses="fas fa-address-card fa-2x"
+                        />
                     </div>
                 </div>
             </section>

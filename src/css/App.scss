@@ -74,7 +74,7 @@ img {
     &-home {
         background: $bg-image no-repeat center right/cover;
         height: 100vh;
-        color: #fff;
+        color: rgb(0, 0, 0);
         will-change: transform, opacity;
 
         // Header Content
@@ -84,10 +84,6 @@ img {
             h1 {
                 font-size: 4rem;
                 line-height: 1.2;
-            }
-
-            .txt-type {
-                border-right: 0.2rem solid #fff;
             }
 
             .header-button {

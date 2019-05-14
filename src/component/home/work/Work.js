@@ -11,17 +11,29 @@ const Work = () => {
     const [items] = useState([item1, item2, item3, item4, item5, item6]);
 
     return (
-        <section id="work-a" className="text-center py-3">
-            <div className="container">
-                <h2 className="section-title">My Work</h2>
-                <div className="bottom-line" />
-                <div className="items">
-                    {items.map((item, i) => (
-                        <Item key={i} item={item} />
-                    ))}
+        <div className="text-center">
+            <section id="work-a">
+                <div className="container py-3">
+                    <h2 className="section-title">My Work</h2>
+                    <div className="bottom-line" />
+                    <div className="items">
+                        {items.map((item, i) => (
+                            <Item key={i} item={item} />
+                        ))}
+                    </div>
                 </div>
+            </section>
+            <div className="py-3">
+                <a
+                    href="https://github.com/shiyu3169?tab=repositories"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="btn-dark"
+                >
+                    More on GitHub
+                </a>
             </div>
-        </section>
+        </div>
     );
 };
 

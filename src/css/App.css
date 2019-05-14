@@ -286,7 +286,7 @@ img {
 #header-home {
   background: url(../img/showcase.jpg) no-repeat center right/cover;
   height: 100vh;
-  color: #fff;
+  color: black;
   will-change: transform, opacity;
 }
 
@@ -297,10 +297,6 @@ img {
 #header-home .header-content h1 {
   font-size: 4rem;
   line-height: 1.2;
-}
-
-#header-home .header-content .txt-type {
-  border-right: 0.2rem solid #fff;
 }
 
 #header-home .header-content .header-button {

@@ -1,14 +1,16 @@
 .items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1px;
     box-shadow: 0 5px 10px 0 rbga(0, 0, 0, 0.3);
 }
 
 .item {
     position: relative;
-    background: $main-color;
+    background: $dark-color;
     overflow: hidden;
-
+    border: $light-color 1px solid;
+    border-radius: 10%;
     &::after {
         content: "";
         position: absolute;

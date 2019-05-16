@@ -13,7 +13,7 @@ const Intro = () => {
                     <div className="bio bg-light">
                         <h5 className="lead">Shiyu Wang</h5>
                         <p>
-                            Full-stack developer with 3 years of experience in
+                            Software developer with 3 years of experience in
                             designing, developing, debugging and training
                             students within web application development.
                         </p>

@@ -10,14 +10,9 @@ const Header = () => {
                 <div className="header-content">
                     <h1>Shiyu Wang</h1>
                     <p className="lead">
-                        The{" "}
-                        <Typer
-                            words={[
-                                "Software Developer",
-                                "Full-Stack Developer",
-                                "Web Developer"
-                            ]}
-                        />
+                        <strong>
+                            The <Typer words={["Software Developer"]} />
+                        </strong>
                     </p>
                     <div className="header-button">
                         <a href="#work-a" className="btn-light">

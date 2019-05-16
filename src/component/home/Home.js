@@ -1,13 +1,25 @@
 import React from "react";
 
 import Header from "./Header";
-import Work from "./work/Work";
+import Applications from "./work/Applications";
+import Design from "./work/Design";
 
 const Home = () => {
     return (
         <>
             <Header />
-            <Work />
+            <Applications />
+            <Design />
+            <div className="py-3 text-center">
+                <a
+                    href="https://github.com/shiyu3169?tab=repositories"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="btn-dark"
+                >
+                    More on GitHub
+                </a>
+            </div>
         </>
     );
 };

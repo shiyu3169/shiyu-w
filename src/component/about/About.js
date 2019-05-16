@@ -23,7 +23,8 @@ const About = () => {
                     <Title text="Programming Languages" />
                     <Skill title="JavaScript" width="100%" />
                     <Skill title="HTML, CSS/Sass" width="100%" />
-                    <Skill title="Java, SQL, NoSQL" width="95%" />
+                    <Skill title="SQL, NoSQL" width="95%" />
+                    <Skill title="Java" width="90%" />
                     <Skill title="Python" width="80%" />
                     <Skill title="R" width="50%" />
                 </div>

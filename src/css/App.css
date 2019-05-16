@@ -16,7 +16,7 @@
 
 .btn-main {
   color: #333;
-  background-color: #ffbc00;
+  background-color: #0077ff;
 }
 
 .btn-light {
@@ -32,11 +32,11 @@
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
-  background-color: #ffbc00;
+  background-color: #0077ff;
 }
 
 .bg-main {
-  background: #ffbc00;
+  background: #0077ff;
   color: #fff;
 }
 
@@ -91,7 +91,7 @@ input[class^="btn-"]:hover {
 .bottom-line {
   height: 2px;
   width: 3rem;
-  background: #ffbc00;
+  background: #0077ff;
   display: block;
   margin: 0 auto 1rem auto;
 }
@@ -101,14 +101,17 @@ input[class^="btn-"]:hover {
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1px;
   -webkit-box-shadow: 0 5px 10px 0 rbga(0, 0, 0, 0.3);
           box-shadow: 0 5px 10px 0 rbga(0, 0, 0, 0.3);
 }
 
 .item {
   position: relative;
-  background: #ffbc00;
+  background: #333;
   overflow: hidden;
+  border: #f4f4f4 1px solid;
+  border-radius: 10%;
 }
 
 .item::after {
@@ -280,13 +283,13 @@ img {
 }
 
 #main-nav a.current {
-  border-color: #ffbc00;
+  border-color: #0077ff;
 }
 
 #header-home {
-  background: url(../img/showcase.jpg) no-repeat center right/cover;
+  background: url(../img/showcase.jpg) no-repeat center center/cover;
   height: 100vh;
-  color: black;
+  color: white;
   will-change: transform, opacity;
 }
 
@@ -300,13 +303,14 @@ img {
 }
 
 #header-home .header-content .header-button {
+  padding-top: 10rem;
   text-align: center;
 }
 
 #header-inner {
   background: url(../img/showcase.jpg) no-repeat 20% 30%/cover;
   height: 5.5rem;
-  border-bottom: 3px solod #ffbc00;
+  border-bottom: 3px solod #0077ff;
 }
 
 #about-a .about-info {
@@ -327,33 +331,8 @@ img {
   -ms-grid-column: 2;
   -ms-grid-column-span: 2;
   grid-area: bio;
-  border-left: 3px solid #ffbc00;
+  border-left: 3px solid #0077ff;
   padding: 0.8rem;
-}
-
-#about-a .award-1 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 1;
-  grid-area: aw1;
-}
-
-#about-a .award-2 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  grid-area: aw2;
-}
-
-#about-a .award-3 {
-  -ms-grid-row: 2;
-  -ms-grid-column: 3;
-  grid-area: aw3;
-}
-
-#about-a .award-1 .fas,
-#about-a .award-2 .fas,
-#about-a .award-3 .fas {
-  color: #ffbc00;
-  margin: 1rem;
 }
 
 #about-b .progress {
@@ -368,7 +347,7 @@ img {
   height: 100%;
   color: #fff;
   text-align: center;
-  background: #ffbc00;
+  background: #0077ff;
 }
 
 #about-c .about-logos {
@@ -479,7 +458,21 @@ img {
 }
 
 #main-footer .footer-content .social i:hover {
-  background: #ffbc00;
+  background: #0077ff;
+}
+
+@media (max-width: 1100px) {
+  #header-home .header-content {
+    padding-top: 20%;
+  }
+  #header-home .header-content h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+  #header-home .header-content .header-button {
+    padding-top: 20%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 800px) {
@@ -488,6 +481,9 @@ img {
   }
   #header-home .header-content {
     padding-top: 5rem;
+  }
+  #header-home .header-content .header-button {
+    display: none;
   }
 }
 
@@ -506,7 +502,7 @@ img {
   }
   #header-home {
     height: 10rem;
-    border-bottom: 3px solid #ffbc00;
+    border-bottom: 3px solid #0077ff;
     background-position: 20% 30%;
   }
   #header-home .header-content {
@@ -523,6 +519,7 @@ img {
   .items {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
   }
   #home-a .specials div {
     border-bottom: 1px #f4f4f4 solid;
@@ -538,8 +535,9 @@ img {
   #about-a .about-info {
         grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
   }
-  #about-c {
-    display: none;
+  #about-c .about-logos {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
   }
   #contact-a .text-fields {
         grid-template-areas: "name" "subject" "email" "phone" "message";
@@ -576,9 +574,12 @@ img {
   }
 }
 
-@media (max-height: 330px) {
+@media (max-height: 380px) {
   #header-home .header-content h1 {
     font-size: 2rem;
+  }
+  #header-home .header-content .header-button {
+    display: none;
   }
 }
 /*# sourceMappingURL=App.css.map */

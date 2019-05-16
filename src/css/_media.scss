@@ -1,3 +1,24 @@
+@media (max-width: 1100px) {
+    #header {
+        // Header Home
+        &-home {
+            // Header Content
+            .header-content {
+                padding-top: 20%;
+                h1 {
+                    font-size: 4rem;
+                    line-height: 1.2;
+                }
+
+                .header-button {
+                    padding-top: 20%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
 // Tablets & Smaller
 @media (max-width: 800px) {
     #header-home {
@@ -5,6 +26,10 @@
 
         .header-content {
             padding-top: 5rem;
+
+            .header-button {
+                display: none;
+            }
         }
     }
 }
@@ -44,6 +69,7 @@
     #contact-b .contact-info,
     .items {
         grid-template-columns: 1fr;
+        grid-row-gap: 1rem;
     }
 
     // Home
@@ -82,7 +108,9 @@
         }
 
         &-c {
-            display: none;
+            .about-logos {
+                grid-template-columns: 1fr;
+            }
         }
     }
 
@@ -141,11 +169,15 @@
     }
 }
 
-@media (max-height: 330px) {
+@media (max-height: 380px) {
     #header-home {
         .header-content {
             h1 {
                 font-size: 2rem;
+            }
+
+            .header-button {
+                display: none;
             }
         }
     }

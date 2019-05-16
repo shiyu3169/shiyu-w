@@ -72,21 +72,21 @@ img {
 #header {
     // Header Home
     &-home {
-        background: $bg-image no-repeat center right/cover;
+        background: $bg-image no-repeat center center/cover;
         height: 100vh;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         will-change: transform, opacity;
 
         // Header Content
         .header-content {
             padding-top: 20%;
-
             h1 {
                 font-size: 4rem;
                 line-height: 1.2;
             }
 
             .header-button {
+                padding-top: 10rem;
                 text-align: center;
             }
         }
@@ -121,23 +121,6 @@ img {
             grid-area: bio;
             border-left: 3px solid $main-color;
             padding: 0.8rem;
-        }
-
-        .award-1 {
-            grid-area: aw1;
-        }
-        .award-2 {
-            grid-area: aw2;
-        }
-        .award-3 {
-            grid-area: aw3;
-        }
-
-        .award-1 .fas,
-        .award-2 .fas,
-        .award-3 .fas {
-            color: $main-color;
-            margin: 1rem;
         }
     }
 

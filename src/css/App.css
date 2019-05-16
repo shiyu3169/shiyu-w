@@ -111,7 +111,7 @@ input[class^="btn-"]:hover {
   position: relative;
   background: #333;
   overflow: hidden;
-  border: #f4f4f4 1px solid;
+  border: #ccc 1px solid;
   border-radius: 10%;
 }
 

@@ -8,7 +8,38 @@ import item6 from "../../../img/applications/item6.png";
 import Items from "../../utility/Items";
 
 const Applications = () => {
-    const [items] = useState([item1, item2, item3, item4, item5, item6]);
+    const [items] = useState([
+        {
+            src: item1,
+            link: "https://msimbo.herokuapp.com/",
+            code: "https://github.com/shiyu3169/msimbo-react"
+        },
+        {
+            src: item2,
+            link: "https://msimbo.herokuapp.com/",
+            code: "https://github.com/shiyu3169/msimbo-react"
+        },
+        {
+            src: item3,
+            link: "https://msimbo.herokuapp.com/",
+            code: "https://github.com/shiyu3169/msimbo-react"
+        },
+        {
+            src: item4,
+            link: "https://msimbo.herokuapp.com/",
+            code: "https://github.com/shiyu3169/msimbo-react"
+        },
+        {
+            src: item5,
+            link: "https://msimbo.herokuapp.com/",
+            code: "https://github.com/shiyu3169/msimbo-react"
+        },
+        {
+            src: item6,
+            link: "https://msimbo.herokuapp.com/",
+            code: "https://github.com/shiyu3169/msimbo-react"
+        }
+    ]);
 
     return <Items items={items} title="Full Stack Applications" />;
 };

@@ -4,12 +4,24 @@ const Item = ({ item }) => {
     return (
         <div className="item">
             <div className="item-image">
-                <img src={item} alt="" />
+                <img src={item.src} alt="" />
             </div>
             <div className="item-text">
                 <div className="item-text-wrap">
-                    <p className="item-text-category">Design</p>
-                    <h2 className="item-text-title">Great Gradients</h2>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={item.link}
+                    >
+                        Open Project
+                    </a>
+                    <a
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        href={item.code}
+                    >
+                        View Code
+                    </a>
                 </div>
             </div>
         </div>

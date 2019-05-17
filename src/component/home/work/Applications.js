@@ -11,33 +11,33 @@ const Applications = () => {
     const [items] = useState([
         {
             src: item1,
-            link: "https://msimbo.herokuapp.com/",
+            link: "http://www.msimbo.com",
             code: "https://github.com/shiyu3169/msimbo-react"
         },
         {
             src: item2,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://www.ulem.org/",
+            code: "https://github.com/shiyu3169/ulem"
         },
         {
             src: item3,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://www.qwqiuting.com/",
+            code: "https://github.com/shiyu3169/qwqiuting"
         },
         {
             src: item4,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://msimbo-angular.herokuapp.com/",
+            code: "https://github.com/shiyu3169/MSIMBO-management"
         },
         {
             src: item5,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://athleteapp.herokuapp.com/",
+            code: "https://github.com/shiyu3169/Athletes_Project"
         },
         {
             src: item6,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://web-maker-sw.herokuapp.com/",
+            code: "https://github.com/shiyu3169/Web-Maker-Application"
         }
     ]);
 

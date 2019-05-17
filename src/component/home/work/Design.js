@@ -11,18 +11,18 @@ const Design = () => {
     const [items] = useState([
         {
             src: item1,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://dev-connector.netlify.com",
+            code: "https://github.com/shiyu3169/Social-Network-Theme"
         },
         {
             src: item2,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://news-grid-sw.netlify.com",
+            code: "https://github.com/shiyu3169/news-grid"
         },
         {
             src: item3,
-            link: "https://msimbo.herokuapp.com/",
-            code: "https://github.com/shiyu3169/msimbo-react"
+            link: "https://menu-css.netlify.com",
+            code: "https://github.com/shiyu3169/Hamburger_Menu_CSS"
         },
         {
             src: item4,

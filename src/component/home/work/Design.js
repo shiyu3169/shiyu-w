@@ -41,7 +41,7 @@ const Design = () => {
     }
   ]);
 
-  return <Items items={items} title='Front End Design Themes' />;
+  return <Items items={items} title='Front End Design' />;
 };
 
 export default Design;

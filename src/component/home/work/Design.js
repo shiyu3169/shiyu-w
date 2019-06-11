@@ -31,8 +31,8 @@ const Design = () => {
     },
     {
       src: item5,
-      link: 'https://netflix-clone.netlify.com/',
-      code: 'https://github.com/shiyu3169/Netflix-Landing'
+      link: 'https://www.qwqiuting.com/',
+      code: 'https://github.com/shiyu3169/qwqiuting'
     },
     {
       src: item6,

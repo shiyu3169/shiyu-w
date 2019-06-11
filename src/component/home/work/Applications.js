@@ -21,8 +21,8 @@ const Applications = () => {
     },
     {
       src: item6,
-      link: 'https://www.qwqiuting.com/',
-      code: 'https://github.com/shiyu3169/qwqiuting'
+      link: 'https://web-maker-sw.herokuapp.com/',
+      code: 'https://github.com/shiyu3169/Web-Maker-Application'
     },
     {
       src: item4,
@@ -36,8 +36,8 @@ const Applications = () => {
     },
     {
       src: item3,
-      link: 'https://web-maker-sw.herokuapp.com/',
-      code: 'https://github.com/shiyu3169/Web-Maker-Application'
+      link: 'https://shopping-list-sw.herokuapp.com/',
+      code: 'https://github.com/shiyu3169/shopping-list-mern'
     }
   ]);
 

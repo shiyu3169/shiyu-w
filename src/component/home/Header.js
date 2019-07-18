@@ -11,7 +11,7 @@ const Header = () => {
                     <h1>Shiyu Wang</h1>
                     <p className="lead">
                         <strong>
-                            The <Typer words={["Software Developer"]} />
+                            The <Typer words={["Full-Stack Developer"]} />
                         </strong>
                     </p>
                     <div className="header-button">

@@ -15,7 +15,7 @@ const Intro = () => {
             <p>
               I am a full-stack developer with experience in designing,
               developing, debugging and training students within full-stack
-              development. specializing mostly in JavaScript/Node.js but also
+              development. Specializing mostly in JavaScript/Node.js but also
               work with Java and Python
             </p>
           </div>

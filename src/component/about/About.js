@@ -6,7 +6,8 @@ import angular from '../../img/about-logos/angular.png';
 import bootstrap from '../../img/about-logos/bootstrap.png';
 import jquery from '../../img/about-logos/jquery.png';
 import node from '../../img/about-logos/node.png';
-import springmvc from '../../img/about-logos/springmvc.png';
+// import springmvc from '../../img/about-logos/springmvc.png';
+import vue from '../../img/about-logos/vue.png';
 
 import Intro from './Intro';
 import Title from '../utility/Title';
@@ -34,11 +35,11 @@ const About = () => {
           <Title text='Frameworks, Organizational Libraries & Environments' />
           <div className='about-logos'>
             <SubSkill title='React' img={react} />
+            <SubSkill title='Vue' img={vue} />
             <SubSkill title='Angular' img={angular} />
             <SubSkill title='Bootstrap' img={bootstrap} />
             <SubSkill title='jQuery' img={jquery} />
             <SubSkill title='Node.js' img={node} />
-            <SubSkill title='Spring MVC' img={springmvc} />
           </div>
         </div>
       </section>

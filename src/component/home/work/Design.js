@@ -41,7 +41,7 @@ const Design = () => {
     }
   ]);
 
-  return <Items items={items} title='Front End Design' />;
+  return <Items items={items} title="Shiyu's Front End Design" />;
 };
 
 export default Design;

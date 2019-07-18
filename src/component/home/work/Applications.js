@@ -41,7 +41,7 @@ const Applications = () => {
     }
   ]);
 
-  return <Items items={items} title='Full Stack Applications' />;
+  return <Items items={items} title="Shiyu's Full Stack Applications" />;
 };
 
 export default Applications;

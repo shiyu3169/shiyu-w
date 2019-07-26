@@ -465,6 +465,10 @@ img {
 }
 
 @media (max-width: 1100px) {
+  .items {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
   #header-home .header-content {
     padding-top: 20%;
   }
@@ -585,4 +589,3 @@ img {
     display: none;
   }
 }
-/*# sourceMappingURL=App.css.map */

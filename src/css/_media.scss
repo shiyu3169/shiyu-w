@@ -1,184 +1,187 @@
 @media (max-width: 1100px) {
-    #header {
-        // Header Home
-        &-home {
-            // Header Content
-            .header-content {
-                padding-top: 20%;
-                h1 {
-                    font-size: 4rem;
-                    line-height: 1.2;
-                }
-
-                .header-button {
-                    padding-top: 20%;
-                    text-align: center;
-                }
-            }
+  .items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #header {
+    // Header Home
+    &-home {
+      // Header Content
+      .header-content {
+        padding-top: 20%;
+        h1 {
+          font-size: 4rem;
+          line-height: 1.2;
         }
+
+        .header-button {
+          padding-top: 20%;
+          text-align: center;
+        }
+      }
     }
+  }
 }
 
 // Tablets & Smaller
 @media (max-width: 800px) {
-    #header-home {
-        height: 30rem;
+  #header-home {
+    height: 30rem;
 
-        .header-content {
-            padding-top: 5rem;
+    .header-content {
+      padding-top: 5rem;
 
-            .header-button {
-                display: none;
-            }
-        }
+      .header-button {
+        display: none;
+      }
     }
+  }
 }
 
 // Smartphones
 
 @media (max-width: 500px) {
-    #main-nav {
-        flex-direction: column;
-        align-items: center;
+  #main-nav {
+    flex-direction: column;
+    align-items: center;
 
-        li {
-            padding: 1rem;
-        }
+    li {
+      padding: 1rem;
+    }
+  }
+
+  #header {
+    &-home {
+      height: 10rem;
+      border-bottom: 3px solid $main-color;
+      background-position: 20% 30%;
+      .header-content {
+        display: none;
+      }
     }
 
-    #header {
-        &-home {
-            height: 10rem;
-            border-bottom: 3px solid $main-color;
-            background-position: 20% 30%;
-            .header-content {
-                display: none;
-            }
-        }
+    &-inner {
+      height: 10rem;
+    }
+  }
 
-        &-inner {
-            height: 10rem;
+  // Stack Grid Columns
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #about-d .testimonials,
+  #contact-b .contact-info,
+  .items {
+    grid-template-columns: 1fr;
+    grid-row-gap: 1rem;
+  }
+
+  // Home
+
+  #home {
+    &-a {
+      .specials div {
+        border-bottom: 1px $light-color solid;
+        padding-bottom: 1rem;
+
+        &:last-child {
+          border: none;
+          padding-bottom: 0;
         }
+      }
     }
 
-    // Stack Grid Columns
-    #home-a .specials,
-    #home-b .stats,
-    #home-c .process,
-    #about-d .testimonials,
-    #contact-b .contact-info,
-    .items {
+    &-b {
+      .stats div {
+        padding: 2rem 0 1rem 0;
+      }
+    }
+  }
+
+  // About
+  #about {
+    &-a {
+      .about-info {
+        grid-template-areas:
+          "bioimage"
+          "bio"
+          "aw1"
+          "aw2"
+          "aw3";
+      }
+    }
+
+    &-c {
+      .about-logos {
         grid-template-columns: 1fr;
-        grid-row-gap: 1rem;
+      }
+    }
+  }
+
+  // Contact
+  #contact {
+    &-a {
+      .text-fields {
+        grid-template-areas:
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
+      }
     }
 
-    // Home
+    &-b {
+      div {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        border-bottom: 1px #555 solid;
 
-    #home {
-        &-a {
-            .specials div {
-                border-bottom: 1px $light-color solid;
-                padding-bottom: 1rem;
-
-                &:last-child {
-                    border: none;
-                    padding-bottom: 0;
-                }
-            }
+        &:last-child {
+          border: none;
+          margin-bottom: 0;
+          padding-bottom: 0;
         }
-
-        &-b {
-            .stats div {
-                padding: 2rem 0 1rem 0;
-            }
-        }
+      }
     }
 
-    // About
-    #about {
-        &-a {
-            .about-info {
-                grid-template-areas:
-                    "bioimage"
-                    "bio"
-                    "aw1"
-                    "aw2"
-                    "aw3";
-            }
-        }
-
-        &-c {
-            .about-logos {
-                grid-template-columns: 1fr;
-            }
-        }
+    &-c {
+      h1 {
+        font-size: 2rem;
+      }
     }
+  }
 
-    // Contact
-    #contact {
-        &-a {
-            .text-fields {
-                grid-template-areas:
-                    "name"
-                    "subject"
-                    "email"
-                    "phone"
-                    "message";
-            }
-        }
+  // Footer
+  #main-footer {
+    height: 7rem;
 
-        &-b {
-            div {
-                margin-bottom: 1rem;
-                padding-bottom: 1rem;
-                border-bottom: 1px #555 solid;
-
-                &:last-child {
-                    border: none;
-                    margin-bottom: 0;
-                    padding-bottom: 0;
-                }
-            }
-        }
-
-        &-c {
-            h1 {
-                font-size: 2rem;
-            }
-        }
+    .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 5rem;
     }
-
-    // Footer
-    #main-footer {
-        height: 7rem;
-
-        .footer-content {
-            flex-direction: column;
-            padding: 1rem;
-            height: 5rem;
-        }
-    }
+  }
 }
 
 // Landscape
 @media (max-height: 580px) {
-    #header-home {
-        .header-content {
-            padding-top: 3rem;
-        }
+  #header-home {
+    .header-content {
+      padding-top: 3rem;
     }
+  }
 }
 
 @media (max-height: 380px) {
-    #header-home {
-        .header-content {
-            h1 {
-                font-size: 2rem;
-            }
+  #header-home {
+    .header-content {
+      h1 {
+        font-size: 2rem;
+      }
 
-            .header-button {
-                display: none;
-            }
-        }
+      .header-button {
+        display: none;
+      }
     }
+  }
 }

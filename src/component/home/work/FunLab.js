@@ -17,8 +17,8 @@ const FunLab = () => {
     },
     {
       src: item3,
-      link: "https://draggable-and-droppable.netlify.com/",
-      code: "https://github.com/shiyu3169/drag-and-drop"
+      link: "https://pixabay-image.netlify.com/",
+      code: "https://github.com/shiyu3169/PixaBay_Image_Finder"
     }
   ]);
   return <Items items={items} title="Shiyu's Fun Lab" />;

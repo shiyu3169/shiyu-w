@@ -4,6 +4,7 @@ import item1 from "../../../img/funlab/item1.png";
 import item2 from "../../../img/funlab/item2.png";
 import item3 from "../../../img/funlab/item3.png";
 import item4 from "../../../img/funlab/item4.png";
+import item5 from "../../../img/funlab/item5.png";
 const FunLab = () => {
   const [items] = useState([
     {
@@ -25,6 +26,11 @@ const FunLab = () => {
       src: item4,
       link: "https://sliding-sign-in.netlify.com/",
       code: "https://github.com/shiyu3169/sliding-sign-in-sign-up-form"
+    },
+    {
+      src: item5,
+      link: "https://image-filter.netlify.com/",
+      code: "https://github.com/shiyu3169/online_image_filter"
     }
   ]);
   return <Items items={items} title="Shiyu's Fun Lab" />;

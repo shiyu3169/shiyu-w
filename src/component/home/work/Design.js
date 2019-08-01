@@ -26,8 +26,8 @@ const Design = () => {
     },
     {
       src: item4,
-      link: "https://sliding-sign-in.netlify.com/",
-      code: "https://github.com/shiyu3169/sliding-sign-in-sign-up-form"
+      link: "https://travelvillie.netlify.com/",
+      code: "https://github.com/shiyu3169/Travelvillie"
     },
     {
       src: item5,

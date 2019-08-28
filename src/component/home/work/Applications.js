@@ -31,8 +31,8 @@ const Applications = () => {
     },
     {
       src: item5,
-      link: 'https://athleteapp.herokuapp.com/',
-      code: 'https://github.com/shiyu3169/Athletes_Project'
+      link: 'https://github-find.netlify.com/',
+      code: 'https://github.com/shiyu3169/github_finder'
     },
     {
       src: item3,
@@ -41,7 +41,7 @@ const Applications = () => {
     }
   ]);
 
-  return <Items items={items} title="Shiyu's Full Stack Applications" />;
+  return <Items items={items} title="Shiyu's Applications" />;
 };
 
 export default Applications;

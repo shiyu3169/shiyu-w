@@ -1,9 +1,9 @@
 import React from "react";
 
 import Header from "../home/Header";
-import Applications from "../home/work/Applications";
-import Design from "../home/work/Design";
-import FunLab from "../home/work/FunLab";
+import Applications from "../work/Applications";
+import Design from "../work/Design";
+import FunLab from "../work/FunLab";
 
 const Home = () => {
   return (

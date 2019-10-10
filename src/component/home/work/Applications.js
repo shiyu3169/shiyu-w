@@ -5,7 +5,7 @@ import item3 from "../../../img/applications/item3.png";
 import item4 from "../../../img/applications/item4.png";
 import item5 from "../../../img/applications/item5.png";
 import item6 from "../../../img/applications/item6.png";
-import Items from "../../utility/Items";
+import Items from "../../layout/Items";
 
 const Applications = () => {
   const [items] = useState([

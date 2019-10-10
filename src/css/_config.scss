@@ -7,11 +7,17 @@ $medium-color: #ccc;
 $dark-color: #333;
 $bg-image: url(../img/showcase.jpg);
 
+@font-face {
+  font-family: "Genericons";
+  src: url("../fonts/genericons-regular-webfont.woff") format("woff"),
+    url("../fonts/genericons-regular-webfont.eot") format("truetype");
+}
+
 // Set Text Color
 @function set-text-color($color) {
-    @if (lightness($color) >50) {
-        @return #000;
-    } @else {
-        @return #fff;
-    }
+  @if (lightness($color) >50) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
 }

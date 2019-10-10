@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Genericons";
+  src: url("../fonts/genericons-regular-webfont.woff") format("woff"), url("../fonts/genericons-regular-webfont.eot") format("truetype");
+}
+
 .container {
   max-width: 1280px;
   padding: 0 1.5rem;
@@ -78,6 +83,22 @@ input[class^="btn-"]:hover {
 
 .py-4 {
   padding: 4rem 0;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.my-4 {
+  margin: 4rem 0;
 }
 
 .section-title {
@@ -429,39 +450,119 @@ img {
 #main-footer {
   background: #333;
   color: #fff;
-  height: 5rem;
 }
 
-#main-footer .footer-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+#main-footer .accordion {
+  min-width: 800px;
+  display: block;
+  list-style-type: none;
+  overflow: hidden;
+  height: 200px;
+  text-align: center;
+  font-size: 0;
 }
 
-#main-footer .footer-content .social a {
+#main-footer .accordion .tab {
+  display: inline-block;
+  background-color: #444;
+  border-right: #333 solid 1px;
+  width: 80px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  -webkit-transition: width 0.5s ease-in-out 0.1s;
+  transition: width 0.5s ease-in-out 0.1s;
+  /* Add Icons */
+}
+
+#main-footer .accordion .tab:hover {
+  width: 450px;
+}
+
+#main-footer .accordion .tab:hover .social span:after {
+  margin-left: -20px;
+}
+
+#main-footer .accordion .tab .content {
+  color: #333;
+  background: #fff;
+  width: 360px;
+  height: 200px;
+  margin-left: 80px;
+  position: relative;
+  padding: 50px 0 0 15px;
+}
+
+#main-footer .accordion .tab .content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#main-footer .accordion .tab .content p {
+  font-size: 0.85rem;
+  line-height: 1.4rem;
+  padding-right: 30px;
+}
+
+#main-footer .accordion .tab .social span:before, #main-footer .accordion .tab .social span:after {
+  -webkit-transition: margin 0.4s ease-in-out 0.1s;
+  transition: margin 0.4s ease-in-out 0.1s;
+  width: 80px;
+  height: 200px;
+  position: absolute;
+  text-indent: 0;
+  padding-top: 90px;
+  display: block;
+  font: normal 30px Genericons;
   color: #fff;
 }
 
-#main-footer .footer-content .social i {
-  margin-right: 1rem;
-  border: 2px #fff solid;
-  border-radius: 50%;
-  height: 25px;
-  width: 25px;
-  line-height: 25px;
-  text-align: center;
-  padding: 0.5rem;
+#main-footer .accordion .tab .social span:after {
+  font-size: 48px;
+  padding-left: 20px;
+  padding-top: 80px;
+  margin-left: 85px;
 }
 
-#main-footer .footer-content .social i:hover {
-  background: #0077ff;
+#main-footer .accordion .tab .youtube span:before, #main-footer .accordion .tab .youtube span:after {
+  content: "\f213";
+}
+
+#main-footer .accordion .tab .youtube span:after {
+  background: #ff0000;
+}
+
+#main-footer .accordion .tab .facebook span:before, #main-footer .accordion .tab .facebook span:after {
+  content: "\f204";
+}
+
+#main-footer .accordion .tab .facebook span:after {
+  background: #3b5998;
+}
+
+#main-footer .accordion .tab .linkedin span:before, #main-footer .accordion .tab .linkedin span:after {
+  content: "\f208";
+}
+
+#main-footer .accordion .tab .linkedin span:after {
+  background: #00a8cd;
+}
+
+#main-footer .accordion .tab .instagram span:before, #main-footer .accordion .tab .instagram span:after {
+  content: "\f215";
+}
+
+#main-footer .accordion .tab .instagram span:after {
+  background: #6dc993;
+}
+
+#main-footer .accordion .tab .github span:before, #main-footer .accordion .tab .github span:after {
+  content: "\f200";
+}
+
+#main-footer .accordion .tab .github span:after {
+  background: #6e5494;
 }
 
 @media (max-width: 1100px) {
@@ -562,17 +663,6 @@ img {
   #contact-c h1 {
     font-size: 2rem;
   }
-  #main-footer {
-    height: 7rem;
-  }
-  #main-footer .footer-content {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    padding: 1rem;
-    height: 5rem;
-  }
 }
 
 @media (max-height: 580px) {
@@ -587,5 +677,34 @@ img {
   }
   #header-home .header-content .header-button {
     display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .container {
+    width: 70%;
+  }
+  .tab {
+    display: block;
+    width: 100%;
+    border-bottom: 3px #333 solid;
+  }
+  .accordion {
+    display: block;
+    min-width: 450px;
+    height: auto;
+  }
+  .tab .content {
+    width: 85%;
+  }
+  .tab:hover {
+    width: 100%;
+  }
+}
+
+@media (max-width: 680px) {
+  .accordion {
+    width: 100%;
+    min-width: 350px;
   }
 }

@@ -327,7 +327,7 @@ img {
 }
 
 #header-home .header-content .header-button {
-  padding-top: 10rem;
+  padding-top: 9.5rem;
   text-align: center;
 }
 
@@ -574,27 +574,27 @@ img {
         grid-template-columns: repeat(2, 1fr);
   }
   #header-home .header-content {
-    padding-top: 30%;
+    padding-top: 40%;
   }
   #header-home .header-content h1 {
     font-size: 4rem;
     line-height: 1.2;
   }
+  #header-home .header-content p {
+    font-size: 2rem;
+  }
   #header-home .header-content .header-button {
-    padding-top: 20%;
+    padding-top: 70%;
     text-align: center;
   }
 }
 
 @media (max-width: 800px) {
-  #header-home {
-    height: 80vh;
-  }
   #header-home .header-content {
-    padding-top: 5rem;
+    padding-top: 30%;
   }
   #header-home .header-content .header-button {
-    display: none;
+    padding-top: 70%;
   }
   #main-footer .accordion {
     height: auto;
@@ -640,9 +640,18 @@ img {
   #header-home {
     height: 55vh;
     border-bottom: 3px solid #0077ff;
-    background-position: 20% 30%;
+    background-position: 20%;
   }
   #header-home .header-content {
+    padding-top: 30%;
+  }
+  #header-home .header-content h1 {
+    font-size: 2rem;
+  }
+  #header-home .header-content p {
+    font-size: 1.5rem;
+  }
+  #header-home .header-content .header-button {
     display: none;
   }
   #header-inner {
@@ -712,17 +721,17 @@ img {
   }
 }
 
-@media (max-height: 580px) {
+@media (max-height: 600px) {
   #header-home .header-content {
-    padding-top: 3rem;
+    padding-top: 2rem;
   }
 }
 
 @media (max-height: 380px) {
   #header-home .header-content h1 {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   #header-home .header-content .header-button {
-    display: none;
+    padding-top: 1rem;
   }
 }

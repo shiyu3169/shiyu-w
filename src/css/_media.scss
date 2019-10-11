@@ -10,14 +10,18 @@
     &-home {
       // Header Content
       .header-content {
-        padding-top: 30%;
+        padding-top: 40%;
         h1 {
           font-size: 4rem;
           line-height: 1.2;
         }
 
+        p {
+          font-size: 2rem;
+        }
+
         .header-button {
-          padding-top: 20%;
+          padding-top: 70%;
           text-align: center;
         }
       }
@@ -28,13 +32,11 @@
 // Tablets & Smaller
 @media (max-width: 800px) {
   #header-home {
-    height: 80vh;
-
     .header-content {
-      padding-top: 5rem;
+      padding-top: 30%;
 
       .header-button {
-        display: none;
+        padding-top: 70%;
       }
     }
   }
@@ -88,9 +90,18 @@
     &-home {
       height: 55vh;
       border-bottom: 3px solid $main-color;
-      background-position: 20% 30%;
+      background-position: 20%;
       .header-content {
-        display: none;
+        padding-top: 30%;
+        h1 {
+          font-size: 2rem;
+        }
+        p {
+          font-size: 1.5rem;
+        }
+        .header-button {
+          display: none;
+        }
       }
     }
 
@@ -215,10 +226,10 @@
 }
 
 // Landscape
-@media (max-height: 580px) {
+@media (max-height: 600px) {
   #header-home {
     .header-content {
-      padding-top: 3rem;
+      padding-top: 2rem;
     }
   }
 }
@@ -227,11 +238,11 @@
   #header-home {
     .header-content {
       h1 {
-        font-size: 2rem;
+        font-size: 3rem;
       }
 
       .header-button {
-        display: none;
+        padding-top: 1rem;
       }
     }
   }

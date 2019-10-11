@@ -27,6 +27,15 @@
       }
     }
   }
+  #about {
+    &-a {
+      .about-info {
+        .resume-button {
+          padding-top: 0.5rem;
+        }
+      }
+    }
+  }
 }
 
 // Tablets & Smaller

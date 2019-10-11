@@ -344,6 +344,10 @@ img {
   grid-gap: 1.2rem;
 }
 
+#about-a .about-info .resume-button {
+  padding-top: 3rem;
+}
+
 #about-a .bio-image {
   -ms-grid-row: 1;
   -ms-grid-column: 1;
@@ -476,7 +480,7 @@ img {
 }
 
 #main-footer .accordion .tab:hover {
-  width: 450px;
+  width: 540px;
 }
 
 #main-footer .accordion .tab:hover .social span:after {
@@ -487,7 +491,7 @@ img {
   text-align: left;
   color: #333;
   background: #fff;
-  width: 360px;
+  width: 450px;
   height: 200px;
   margin-left: 80px;
   position: relative;
@@ -586,6 +590,9 @@ img {
   #header-home .header-content .header-button {
     padding-top: 70%;
     text-align: center;
+  }
+  #about-a .about-info .resume-button {
+    padding-top: 0.5rem;
   }
 }
 

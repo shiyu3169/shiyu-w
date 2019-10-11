@@ -110,6 +110,10 @@ img {
         "bioimage bio bio"
         "aw1 aw2 aw3";
       grid-gap: 1.2rem;
+
+      .resume-button {
+        padding-top: 3rem;
+      }
     }
 
     // Grid Area
@@ -235,7 +239,7 @@ img {
       transition: width 0.5s ease-in-out 0.1s;
 
       &:hover {
-        width: 450px;
+        width: 540px;
         .social {
           span {
             &:before {
@@ -251,7 +255,7 @@ img {
         text-align: left;
         color: $dark-color;
         background: #fff;
-        width: 360px;
+        width: 450px;
         height: 200px;
         margin-left: 80px;
         position: relative;

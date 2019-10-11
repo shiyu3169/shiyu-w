@@ -584,6 +584,17 @@ img {
     padding-top: 20%;
     text-align: center;
   }
+  #main-footer .accordion {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+  }
+  #main-footer .accordion .tab {
+    display: block;
+    width: 80%;
+    border-bottom: 3px #333 solid;
+  }
 }
 
 @media (max-width: 800px) {
@@ -595,22 +606,6 @@ img {
   }
   #header-home .header-content .header-button {
     display: none;
-  }
-  #main-footer .accordion {
-    display: block;
-    min-width: 450px;
-    height: auto;
-  }
-  #main-footer .accordion .tab {
-    display: block;
-    width: 100%;
-    border-bottom: 3px #333 solid;
-  }
-  #main-footer .accordion .tab .content {
-    width: 85%;
-  }
-  #main-footer .accordion .tab:hover {
-    width: 100%;
   }
 }
 
@@ -681,10 +676,6 @@ img {
   }
   #contact-c h1 {
     font-size: 2rem;
-  }
-  #main-footer .accordion {
-    width: 100%;
-    min-width: 350px;
   }
 }
 

@@ -23,6 +23,28 @@
       }
     }
   }
+
+  #main-footer {
+    // width: 300px;
+    .accordion {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      height: auto;
+      .tab {
+        // margin: 0 auto;
+        display: block;
+        width: 80%;
+        border-bottom: 3px $dark-color solid;
+        .content {
+          // width: 300px;
+        }
+        &:hover {
+          // width: ;
+        }
+      }
+    }
+  }
 }
 
 // Tablets & Smaller
@@ -35,24 +57,6 @@
 
       .header-button {
         display: none;
-      }
-    }
-  }
-  #main-footer {
-    .accordion {
-      display: block;
-      min-width: 450px;
-      height: auto;
-      .tab {
-        display: block;
-        width: 100%;
-        border-bottom: 3px #333 solid;
-        .content {
-          width: 85%;
-        }
-        &:hover {
-          width: 100%;
-        }
       }
     }
   }
@@ -169,13 +173,6 @@
       h1 {
         font-size: 2rem;
       }
-    }
-  }
-
-  #main-footer {
-    .accordion {
-      width: 100%;
-      min-width: 350px;
     }
   }
 }

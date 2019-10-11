@@ -10,7 +10,7 @@
     &-home {
       // Header Content
       .header-content {
-        padding-top: 20%;
+        padding-top: 30%;
         h1 {
           font-size: 4rem;
           line-height: 1.2;
@@ -23,40 +23,50 @@
       }
     }
   }
-
-  #main-footer {
-    // width: 300px;
-    .accordion {
-      display: block;
-      margin: 0 auto;
-      width: 80%;
-      height: auto;
-      .tab {
-        // margin: 0 auto;
-        display: block;
-        width: 80%;
-        border-bottom: 3px $dark-color solid;
-        .content {
-          // width: 300px;
-        }
-        &:hover {
-          // width: ;
-        }
-      }
-    }
-  }
 }
 
 // Tablets & Smaller
 @media (max-width: 800px) {
   #header-home {
-    height: 30rem;
+    height: 80vh;
 
     .header-content {
       padding-top: 5rem;
 
       .header-button {
         display: none;
+      }
+    }
+  }
+  #main-footer {
+    .accordion {
+      height: auto;
+      .tab {
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        width: 80%;
+        border-bottom: 3px #333 solid;
+        .content {
+          text-align: center;
+          width: 80%;
+          height: 100px;
+          padding: 40px 0 10px 15px;
+        }
+        &:hover {
+          width: 80%;
+        }
+
+        .social {
+          span {
+            height: 100px;
+            &:before,
+            &:after {
+              height: 100px;
+              padding-top: 60px;
+            }
+          }
+        }
       }
     }
   }
@@ -76,7 +86,7 @@
 
   #header {
     &-home {
-      height: 10rem;
+      height: 55vh;
       border-bottom: 3px solid $main-color;
       background-position: 20% 30%;
       .header-content {
@@ -172,6 +182,33 @@
     &-c {
       h1 {
         font-size: 2rem;
+      }
+    }
+  }
+
+  #main-footer {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+
+    .accordion {
+      .tab {
+        display: inline-block;
+        width: 19%;
+        &:hover {
+          width: 19%;
+        }
+        .content {
+          width: 100%;
+          height: 100px;
+        }
+        .social {
+          span {
+            &:before,
+            &:after {
+              height: 100px;
+            }
+          }
+        }
       }
     }
   }

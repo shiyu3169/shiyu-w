@@ -453,7 +453,6 @@ img {
 }
 
 #main-footer .accordion {
-  min-width: 800px;
   display: block;
   list-style-type: none;
   overflow: hidden;
@@ -485,6 +484,7 @@ img {
 }
 
 #main-footer .accordion .tab .content {
+  text-align: left;
   color: #333;
   background: #fff;
   width: 360px;
@@ -574,7 +574,7 @@ img {
         grid-template-columns: repeat(2, 1fr);
   }
   #header-home .header-content {
-    padding-top: 20%;
+    padding-top: 30%;
   }
   #header-home .header-content h1 {
     font-size: 4rem;
@@ -584,28 +584,43 @@ img {
     padding-top: 20%;
     text-align: center;
   }
-  #main-footer .accordion {
-    display: block;
-    margin: 0 auto;
-    width: 80%;
-    height: auto;
-  }
-  #main-footer .accordion .tab {
-    display: block;
-    width: 80%;
-    border-bottom: 3px #333 solid;
-  }
 }
 
 @media (max-width: 800px) {
   #header-home {
-    height: 30rem;
+    height: 80vh;
   }
   #header-home .header-content {
     padding-top: 5rem;
   }
   #header-home .header-content .header-button {
     display: none;
+  }
+  #main-footer .accordion {
+    height: auto;
+  }
+  #main-footer .accordion .tab {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    width: 80%;
+    border-bottom: 3px #333 solid;
+  }
+  #main-footer .accordion .tab .content {
+    text-align: center;
+    width: 80%;
+    height: 100px;
+    padding: 40px 0 10px 15px;
+  }
+  #main-footer .accordion .tab:hover {
+    width: 80%;
+  }
+  #main-footer .accordion .tab .social span {
+    height: 100px;
+  }
+  #main-footer .accordion .tab .social span:before, #main-footer .accordion .tab .social span:after {
+    height: 100px;
+    padding-top: 60px;
   }
 }
 
@@ -623,7 +638,7 @@ img {
     padding: 1rem;
   }
   #header-home {
-    height: 10rem;
+    height: 55vh;
     border-bottom: 3px solid #0077ff;
     background-position: 20% 30%;
   }
@@ -676,6 +691,24 @@ img {
   }
   #contact-c h1 {
     font-size: 2rem;
+  }
+  #main-footer {
+    background: #333;
+    color: #fff;
+  }
+  #main-footer .accordion .tab {
+    display: inline-block;
+    width: 19%;
+  }
+  #main-footer .accordion .tab:hover {
+    width: 19%;
+  }
+  #main-footer .accordion .tab .content {
+    width: 100%;
+    height: 100px;
+  }
+  #main-footer .accordion .tab .social span:before, #main-footer .accordion .tab .social span:after {
+    height: 100px;
   }
 }
 

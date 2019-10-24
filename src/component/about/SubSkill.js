@@ -1,12 +1,11 @@
 import React from "react";
 
-const SubSkill = ({ title, img }) => {
-    return (
-        <div className="text-center">
-            <img src={img} alt={title} />
-            <h4>{title}</h4>
-        </div>
-    );
+const SubSkill = ({ skill }) => {
+  return (
+    <a target="_blank" rel="noopener noreferrer" href={skill.url}>
+      {skill.name}
+    </a>
+  );
 };
 
 export default SubSkill;

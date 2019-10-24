@@ -378,16 +378,26 @@ img {
   background: #0077ff;
 }
 
-#about-c .about-logos {
+#about-c .skills {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[3];
-      grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1.5rem;
+  text-align: center;
 }
 
-#about-c .about-logos img {
-  width: 30%;
+#about-c .skills a {
+  color: #5481e4;
+  border: 1px solid #5481e4;
+  padding: 5px 0;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+#about-c .skills a:hover {
+  background: #5481e4;
+  color: white;
 }
 
 #contact-a .text-fields {
@@ -603,6 +613,10 @@ img {
   #header-home .header-content .header-button {
     padding-top: 70%;
   }
+  #about-c .skills {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
   #main-footer .accordion {
     height: auto;
   }
@@ -687,10 +701,6 @@ img {
   }
   #about-a .about-info {
         grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
-  }
-  #about-c .about-logos {
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
   }
   #contact-a .text-fields {
         grid-template-areas: "name" "subject" "email" "phone" "message";

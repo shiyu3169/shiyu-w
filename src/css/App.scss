@@ -148,12 +148,24 @@ img {
 
   // About C
   &-c {
-    .about-logos {
+    .skills {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 2rem;
-      img {
-        width: 30%;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 1.5rem;
+      text-align: center;
+
+      a {
+        $skill-color: #5481e4;
+        color: $skill-color;
+        border: 1px solid $skill-color;
+        padding: 5px 0;
+        font-weight: 500;
+        border-radius: 10px;
+
+        &:hover {
+          background: $skill-color;
+          color: white;
+        }
       }
     }
   }

@@ -49,6 +49,13 @@
       }
     }
   }
+  #about {
+    &-c {
+      .skills {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
   #main-footer {
     .accordion {
       height: auto;
@@ -162,12 +169,6 @@
           "aw1"
           "aw2"
           "aw3";
-      }
-    }
-
-    &-c {
-      .about-logos {
-        grid-template-columns: 1fr;
       }
     }
   }

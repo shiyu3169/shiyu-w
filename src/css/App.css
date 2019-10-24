@@ -393,11 +393,15 @@ img {
   padding: 5px 0;
   font-weight: 500;
   border-radius: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #about-c .skills a:hover {
   background: #5481e4;
   color: white;
+  -webkit-transform: scale(1.1, 1.3);
+          transform: scale(1.1, 1.3);
 }
 
 #contact-a .text-fields {

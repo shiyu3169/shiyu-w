@@ -34,9 +34,9 @@
   background-color: #333;
 }
 
-button[class^="btn-"]:hover,
-a[class^="btn-"]:hover,
-input[class^="btn-"]:hover {
+button[class^='btn-']:hover,
+a[class^='btn-']:hover,
+input[class^='btn-']:hover {
   background-color: #0077ff;
 }
 
@@ -61,7 +61,6 @@ input[class^="btn-"]:hover {
 }
 
 .lead {
-  font-size: 1.3rem;
   margin-bottom: 2rem;
 }
 

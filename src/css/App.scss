@@ -136,7 +136,7 @@ img {
       background: $medium-color;
       border-radius: 5px;
       margin-bottom: 0.3rem;
-
+      transition: width 2s ease-in-out;
       div {
         height: 100%;
         color: #fff;

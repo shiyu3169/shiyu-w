@@ -368,6 +368,8 @@ img {
   background: #ccc;
   border-radius: 5px;
   margin-bottom: 0.3rem;
+  -webkit-transition: width 2s ease-in-out;
+  transition: width 2s ease-in-out;
 }
 
 #about-b .progress div {

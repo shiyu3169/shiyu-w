@@ -137,7 +137,7 @@ input[class^="btn-"]:hover {
 }
 
 .item::after {
-  content: "";
+  content: '';
   position: absolute;
   display: block;
   background: inherit;
@@ -182,7 +182,7 @@ input[class^="btn-"]:hover {
 }
 
 .item-image:before {
-  content: "";
+  content: '';
   display: block;
   padding-top: 75%;
   overflow: hidden;
@@ -247,7 +247,7 @@ input[class^="btn-"]:hover {
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -340,7 +340,7 @@ img {
 #about-a .about-info {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+      grid-template-areas: 'bioimage bio bio' 'aw1 aw2 aw3';
   grid-gap: 1.2rem;
 }
 
@@ -407,7 +407,7 @@ img {
 #contact-a .text-fields {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "name email" "subject phone" "message message";
+      grid-template-areas: 'name email' 'subject phone' 'message message';
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem;
 }
@@ -448,7 +448,7 @@ img {
   padding: 0.5rem 1rem;
 }
 
-#contact-a button[type="submit"] {
+#contact-a button[type='submit'] {
   width: 50%;
 }
 
@@ -544,7 +544,7 @@ img {
 }
 
 #main-footer .accordion .tab .youtube span:before, #main-footer .accordion .tab .youtube span:after {
-  content: "\f213";
+  content: '\f213';
 }
 
 #main-footer .accordion .tab .youtube span:after {
@@ -552,7 +552,7 @@ img {
 }
 
 #main-footer .accordion .tab .facebook span:before, #main-footer .accordion .tab .facebook span:after {
-  content: "\f204";
+  content: '\f204';
 }
 
 #main-footer .accordion .tab .facebook span:after {
@@ -560,7 +560,7 @@ img {
 }
 
 #main-footer .accordion .tab .linkedin span:before, #main-footer .accordion .tab .linkedin span:after {
-  content: "\f208";
+  content: '\f208';
 }
 
 #main-footer .accordion .tab .linkedin span:after {
@@ -568,7 +568,7 @@ img {
 }
 
 #main-footer .accordion .tab .instagram span:before, #main-footer .accordion .tab .instagram span:after {
-  content: "\f215";
+  content: '\f215';
 }
 
 #main-footer .accordion .tab .instagram span:after {
@@ -576,7 +576,7 @@ img {
 }
 
 #main-footer .accordion .tab .github span:before, #main-footer .accordion .tab .github span:after {
-  content: "\f200";
+  content: '\f200';
 }
 
 #main-footer .accordion .tab .github span:after {

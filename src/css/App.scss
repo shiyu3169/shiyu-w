@@ -1,6 +1,6 @@
-@import "config";
-@import "utility";
-@import "item_grid";
+@import 'config';
+@import 'utility';
+@import 'item_grid';
 
 // General Styles
 * {
@@ -10,7 +10,7 @@
 }
 
 body {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -107,8 +107,8 @@ img {
     .about-info {
       display: grid;
       grid-template-areas:
-        "bioimage bio bio"
-        "aw1 aw2 aw3";
+        'bioimage bio bio'
+        'aw1 aw2 aw3';
       grid-gap: 1.2rem;
 
       .resume-button {
@@ -179,9 +179,9 @@ img {
     .text-fields {
       display: grid;
       grid-template-areas:
-        "name email"
-        "subject phone"
-        "message message";
+        'name email'
+        'subject phone'
+        'message message';
       grid-gap: 1.2rem;
       margin-bottom: 1.2rem;
 
@@ -208,7 +208,7 @@ img {
       }
     }
 
-    button[type="submit"] {
+    button[type='submit'] {
       width: 50%;
     }
   }
@@ -256,9 +256,6 @@ img {
         width: 540px;
         .social {
           span {
-            &:before {
-              // margin-left: -100px;
-            }
             &:after {
               margin-left: -20px;
             }
@@ -314,7 +311,7 @@ img {
         span {
           &:before,
           &:after {
-            content: "\f213";
+            content: '\f213';
           }
           &:after {
             background: #ff0000;
@@ -326,7 +323,7 @@ img {
         span {
           &:before,
           &:after {
-            content: "\f204";
+            content: '\f204';
           }
           &:after {
             background: #3b5998;
@@ -338,7 +335,7 @@ img {
         span {
           &:before,
           &:after {
-            content: "\f208";
+            content: '\f208';
           }
           &:after {
             background: #00a8cd;
@@ -350,7 +347,7 @@ img {
         span {
           &:before,
           &:after {
-            content: "\f215";
+            content: '\f215';
           }
           &:after {
             background: #6dc993;
@@ -362,7 +359,7 @@ img {
         span {
           &:before,
           &:after {
-            content: "\f200";
+            content: '\f200';
           }
           &:after {
             background: #6e5494;
@@ -374,4 +371,4 @@ img {
 }
 
 // Import Media Queries
-@import "media";
+@import 'media';

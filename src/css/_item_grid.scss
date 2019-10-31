@@ -13,7 +13,7 @@
   border: $medium-color 1px solid;
   border-radius: 10%;
   &::after {
-    content: "";
+    content: '';
     position: absolute;
     display: block;
     background: inherit;
@@ -50,7 +50,7 @@
   }
 
   &-image:before {
-    content: "";
+    content: '';
     display: block;
     padding-top: 75%;
     overflow: hidden;

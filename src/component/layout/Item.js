@@ -1,12 +1,6 @@
 import React from 'react';
-import 'aos/dist/aos.css';
-import AOS from 'aos/dist/aos';
 
 const Item = ({ item }) => {
-  AOS.init({
-    offset: 100,
-    duration: 1000
-  });
   return (
     <div className="item" data-aos="flip-left">
       <div className="item-image">

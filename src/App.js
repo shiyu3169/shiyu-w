@@ -11,8 +11,8 @@ import Footer from './component/layout/Footer';
 
 const App = () => {
   AOS.init({
-    offset: 100,
-    duration: 1000
+    offset: 200,
+    duration: 1500
   });
   return (
     <Router>

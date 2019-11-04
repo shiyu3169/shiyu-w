@@ -384,7 +384,7 @@ img {
   display: grid;
   -ms-grid-columns: (1fr)[5];
       grid-template-columns: repeat(5, 1fr);
-  grid-gap: 1.5rem;
+  grid-gap: 1.4rem;
   text-align: center;
 }
 

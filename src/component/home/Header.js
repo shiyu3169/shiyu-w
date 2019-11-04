@@ -1,6 +1,6 @@
-import React from "react";
-import Navbar from "../layout/Navbar";
-import Typer from "../layout/Typer";
+import React from 'react';
+import Navbar from '../layout/Navbar';
+import Typer from '../layout/Typer';
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
           <h1>Shiyu Wang</h1>
           <p className="lead">
             <strong>
-              The <Typer words={["Full-Stack Developer"]} />
+              The <Typer words={['Web Developer', 'Full-stack Engineer']} />
             </strong>
           </p>
           <div className="header-button">

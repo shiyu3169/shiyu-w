@@ -1,6 +1,6 @@
-import React from 'react';
-import about from '../../img/about.jpg';
-import resume from '../../files/Wang-Shiyu-Resume.pdf';
+import React from "react";
+import about from "../../img/about.jpg";
+import resume from "../../files/Shiyu_Wang-Software_Engineer.pdf";
 
 const Intro = () => {
   const intro =

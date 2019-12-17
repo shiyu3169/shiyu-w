@@ -1,9 +1,10 @@
-import React from 'react';
-import InnerHeader from '../layout/InnerHeader';
-import Intro from '../about/Intro';
-import Title from '../layout/Title';
-import Skill from '../about/Skill';
-import SubSkills from '../about/SubSkills';
+import React from "react";
+import InnerHeader from "../layout/InnerHeader";
+import Intro from "../about/Intro";
+import Title from "../layout/Title";
+import Skill from "../about/Skill";
+import SubSkills from "../about/SubSkills";
+import Timeline from "../about/Timeline";
 
 const About = () => {
   return (
@@ -23,6 +24,10 @@ const About = () => {
       <section id="about-c" className="py-4 bg-light">
         <SubSkills />
       </section>
+      <section id="about-d" className="bg-dark py-3">
+        <Timeline />
+      </section>
+      <section id="about-e"></section>
     </>
   );
 };

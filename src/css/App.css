@@ -838,3 +838,35 @@ img {
   height: 0;
   border-style: solid;
 }
+
+@media (max-width: 1050px) {
+  #timeline ul li div {
+    width: 250px;
+  }
+  #timeline ul li:nth-child(even) div {
+    left: -150px;
+  }
+  #timeline ul li:nth-child(odd) div {
+    left: -120px;
+  }
+}
+
+@media (max-width: 600px) {
+  #timeline ul li {
+    margin-left: 20px;
+  }
+  #timeline ul li div {
+    width: calc(100vw - 120px);
+  }
+  #timeline ul li:nth-child(even) div {
+    left: 250px;
+  }
+  #timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #f4f4f4 transparent transparent;
+  }
+  #timeline ul li:nth-child(odd) div {
+    left: -150px;
+  }
+}

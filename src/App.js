@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "aos/dist/aos.css";
-import "./css/App.css";
+import "./css/App.scss";
 import AOS from "aos/dist/aos";
 // Components
 import Home from "./component/page/Home";

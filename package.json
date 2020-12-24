@@ -4,12 +4,13 @@
   "private": true,
   "dependencies": {
     "aos": "^2.3.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^1.2.1",
-    "react-scripts": "3.0.1",
-    "react-spring": "^8.0.20"
+    "react-scripts": "^4.0.1",
+    "react-spring": "^8.0.20",
+    "sass": "^1.30.0"
   },
   "scripts": {
     "start": "react-scripts start",

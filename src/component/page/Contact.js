@@ -61,14 +61,14 @@ const Contact = () => {
               content="shiyu3169@gmail.com"
               iconClasses="fas fa-envelope fa-2x"
             />
-            <Info
+            {/* <Info
               title="Phone"
               content="(857)-269-9341"
               iconClasses="fas fa-phone fa-2x"
-            />
+            /> */}
             <Info
               title="Address"
-              content="394 Ocean Ave, Revere MA, 02151"
+              content="Los Angels, CA"
               iconClasses="fas fa-address-card fa-2x"
             />
           </div>

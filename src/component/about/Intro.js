@@ -1,6 +1,6 @@
 import React from 'react';
 import about from '../../img/about.jpg';
-import resume from '../../files/Shiyu_Wang_Resume.pdf';
+// import resume from '../../files/Shiyu_Wang_Resume.pdf';
 
 const Intro = () => {
   const intro =
@@ -16,11 +16,11 @@ const Intro = () => {
           <div className='bio bg-light'>
             <h1 className='lead'>Shiyu Wang</h1>
             <p>{intro}</p>
-            <div className='resume-button'>
+            {/* <div className='resume-button'>
               <a href={resume} download className='btn-dark'>
                 Download My Latest Resume
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

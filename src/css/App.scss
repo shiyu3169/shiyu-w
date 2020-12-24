@@ -220,8 +220,10 @@ img {
   &-b {
     .contact-info {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       text-align: center;
+      max-width: 50rem;
+      margin: auto;
     }
   }
 
